@@ -13,6 +13,7 @@ INPUT ARGUMENTS :
 	datafile_row0 - Starting row in the projection data at which the reconstruction is done.
 	proj_rows - Number of rows (or slices) of the projection used for reconstruction. It is the number of detector bins in the axial direction (i.e., axis of rotation).
 	proj_cols - Total number of columns in the projection image. Typically, it is the number of detector bins in the cross-axial direction (i.e., perpendicular to axis of rotation).
+	proj_start - Projection index at which to start the reconstruction.
 	proj_num - Total number of 2D projections used for reconstruction.
 	recon_num - Total number of 3D time samples in the 4D reconstruction. For 3D reconstructions, this value should be set to 1.
 	vox_wid - Side length of a cubic voxel in inverse units of linear attenuation coefficient of the object. 
